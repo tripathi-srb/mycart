@@ -1,0 +1,138 @@
+/* whole background color */
+
+.custom-bg{
+	
+	background: #e91e63!important;
+}
+
+
+/* outline button color */
+.btn-outline-customSuccess {
+    color: #e91e63;
+    border-color: #e91e63;
+}
+
+.btn-outline-customSuccess:hover {
+    color: #fff;
+    background-color: #e91e63;
+    border-color: #e91e63;
+}
+
+
+/* button color */
+.btn-primary1 {
+    color: #fff;
+    background-color:  #e91e63;
+    border-color:  #e91e63;
+}
+
+.btn-primary1:hover {
+    color: #fff;
+    background-color: #ec407a;
+    border-color: #e91e63;
+}
+
+
+
+
+/* admin page color */
+
+.admin .card{
+	 
+	 border: 1px solid #e91e63;
+	
+}
+
+.admin .card:hover{
+	background: #fce4ec;
+	cursor: pointer;
+}
+
+
+/* active home page */
+.active1 {
+    z-index: 2;
+    color: #fff;
+    background-color: #e91e63;
+    border-color: #e91e63;
+}
+
+.list-group-item-action.active1 {
+    z-index: 2;
+    color: #fff;
+    background-color: #e91e63;
+    border-color: #e91e63;
+}
+
+
+
+/* for discount */
+.discount-label
+{
+	font-size: 10px!important;
+	font-style: italic!important;
+}
+
+
+/* card design and colour */
+
+.product-card:hover
+{
+	background: #f8bbd0;
+	cursor: pointer;
+}
+
+/* Toast Message */
+ #toast
+   {
+     visibility:hidden;
+     min-width:300px;
+     position:fixed;
+     bottom:30px;
+     left: 50%;
+     margin-left: -125px;
+     background: #e91e63;
+     padding: 15px;
+     color: white;
+     text-align: center;
+     z-index:1;
+     font-size: 18px;
+     box-shadow: 0px 0px 100px #9c27b0;
+   }
+  
+  
+  #toast.display
+  {
+     visibility: visible;
+     animation:fadeIn 0.5s, fadeOut 0.5s 2.5s;
+  }
+  
+  
+  @keyframes fadeIn{
+     from{
+         bottom:0;
+         opacity:0;
+     }
+     
+     to{
+         bottom:30px;
+         opacity:1;
+     }
+  }
+  
+  
+   
+   @keyframes fadeOut{
+     from{
+         bottom:30px;
+         opacity:1;
+     }
+     
+     to{
+         bottom:0;
+         opacity:0;
+     }
+  }
+  
+/* End Toast Message */
+
